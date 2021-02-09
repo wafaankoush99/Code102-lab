@@ -1,20 +1,21 @@
 
-
-var UserName = prompt ('Whats your name?');
-console.log(UserName);
-
-
-
-alert('Welcome '+ UserName  );
-document.write('Welcome ' + UserName  );
+askName ();
+collectData();
 
 
 
+
+function askName (){
+    var UserName = prompt ('Whats your name?');
+    console.log(UserName);
+    alert('Welcome '+ UserName  );
+    document.write('Welcome ' + UserName  );
+
+}
+function collectData(){
 var isinterested = prompt('Are you intersted yes or no?');
 
-if ( isinterested== 'yes')
-
-{
+if ( isinterested== 'yes'){
     alert('We hope this is useful for you ♥');
 
     var order = prompt("Do you want a weight loss program?");
@@ -84,6 +85,7 @@ sum = sum + star;
 
 document.write(result);
 document.write(sum);
+}
 
 
 
