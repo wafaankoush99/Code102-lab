@@ -33,7 +33,9 @@ in js use _ underscore */
 .featured-image {
     width: 925px;
     height: 300px;
-    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -71,6 +73,8 @@ in js use _ underscore */
 .end {
     width: 925px;
     height: 300px;
-    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
